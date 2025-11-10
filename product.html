@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>プロダクト | ECeta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header" data-animate="fade">
+      <div class="u-container header__inner">
+        <a class="header__logo" href="index.html">ECETA</a>
+        <nav class="header__nav" aria-label="主要ナビゲーション">
+          <ul class="header__nav-list">
+            <li><a class="header__link" href="product.html">プロダクト</a></li>
+            <li><a class="header__link" href="for-brands.html">ブランド向け</a></li>
+            <li><a class="header__link" href="vision.html">ビジョン</a></li>
+            <li><a class="header__link" href="team.html">チーム</a></li>
+            <li><a class="header__link" href="contact.html">問い合わせ</a></li>
+          </ul>
+        </nav>
+        <button class="header__menu-toggle" type="button" aria-expanded="false" aria-controls="navDrawer" data-drawer-toggle>
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <div class="nav-drawer" id="navDrawer">
+      <div class="nav-drawer__panel">
+        <button class="header__menu-toggle" type="button" aria-label="閉じる" data-drawer-toggle>×</button>
+        <a class="nav-drawer__link" href="product.html">プロダクト</a>
+        <a class="nav-drawer__link" href="for-brands.html">ブランド向け</a>
+        <a class="nav-drawer__link" href="vision.html">ビジョン</a>
+        <a class="nav-drawer__link" href="team.html">チーム</a>
+        <a class="nav-drawer__link" href="contact.html">問い合わせ</a>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero" data-animate="fade">
+        <div class="u-container">
+          <div class="hero__label u-uppercase">Product Insight</div>
+          <h1 class="hero__title">
+            EC × メタバース × 世界観 × 即購買。
+            <span>スマホに最適化された没入体験エンジン。</span>
+          </h1>
+          <p class="hero__lead">
+            ECetaは3D空間とリアルタイム通信を統合し、ブランドとユーザーをスマホで繋ぐ。触れて歩き、衝動のままに購入できる次世代コマースUXです。
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="contact.html">ブランド出店相談</a>
+            <a class="button button--ghost" href="for-brands.html">導入メリットへ</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" data-animate="fade">
+        <div class="u-container">
+          <div class="section__header">
+            <span class="badge">体験レイヤー</span>
+            <h2 class="section__title">没入空間・ソーシャル同席・購買導線を一つの画面に</h2>
+            <p class="section__lead">ユーザー視点の3レイヤーでEC体験を再構築。空間で魅せ、会話で共感し、数タップで購入に着地させます。</p>
+          </div>
+          <div class="u-grid u-grid--3">
+            <article class="feature-card">
+              <h3 class="feature-card__title">空間 UI</h3>
+              <p class="feature-card__body">WebGLベースの軽量3Dシーン。ブランド演出に合わせた光と質感で、スマホでも息づく空気を再現。</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="feature-card__title">ソーシャルレイヤー</h3>
+              <p class="feature-card__body">同時入店、視線共有、スタンプ。インフルエンサーや友人が伴走する体験が衝動を後押しします。</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="feature-card__title">購買オーケストレーション</h3>
+              <p class="feature-card__body">カート投入から決済までを空間内UIで完結。指の移動距離を最小化し、離脱ポイントを抑え切ります。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--contrast" data-animate="fade">
+        <div class="u-container u-container--wide">
+          <div class="media-block">
+            <div class="media-block__visual">
+              <img src="assets/img/placeholder.png" alt="バーチャル店舗の体験イメージ" />
+            </div>
+            <div class="media-block__content">
+              <span class="badge">モジュール構成</span>
+              <h2 class="media-block__title">ブランドの世界観を余白ごと設計するUIモジュール</h2>
+              <p class="media-block__text">
+                ストーリーテラー、商品ポッド、イベントホールなど、体験パターンを組み合わせるだけでブランド固有の空間が立ち上がる。UIの角度・距離感までスマホでの視認性に最適化しました。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" data-animate="fade">
+        <div class="u-container">
+          <div class="section__header">
+            <span class="badge">主要機能</span>
+            <h2 class="section__title">体験と購買の橋渡しを担う機能群</h2>
+            <p class="section__lead">最小タップで感情と購入を連結するために磨き込んだ機能スタックです。</p>
+          </div>
+          <div class="u-grid u-grid--2">
+            <article class="feature-card">
+              <h3 class="feature-card__title">アバター同席ビュー</h3>
+              <p class="feature-card__body">友人と同じ棚を眺め、指差しやスタンプで意見を交換。リアルな接客熱量をオンラインで再現します。</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="feature-card__title">3Dプロダクトビジュアライゼーション</h3>
+              <p class="feature-card__body">タップで拡大、スワイプで回転。質感とサイズ感が指先で伝わり、購入の迷いを削ぎ落とします。</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="feature-card__title">ライブイベント同期</h3>
+              <p class="feature-card__body">新作発表や限定販売をリアルタイムで開催。通知とリマインダーでコミュニティを瞬時に集結させます。</p>
+            </article>
+            <article class="feature-card">
+              <h3 class="feature-card__title">空間内チェックアウト</h3>
+              <p class="feature-card__body">商品を離れずに決済へ進めるHUD UI。Apple Pay等のウォレット決済にも対応予定です。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" data-animate="fade">
+        <div class="u-container">
+          <div class="section__header">
+            <span class="badge">体験フロー</span>
+            <h2 class="section__title">ユーザーの動きに寄り添うシームレスな導線</h2>
+            <p class="section__lead">発見から決済までのステップを4つに分解。各フェーズの感情温度に合わせたUXを提供します。</p>
+          </div>
+          <div class="timeline">
+            <div class="timeline__item">
+              <h3 class="timeline__title">01. 招待リンクから入店</h3>
+              <p class="timeline__description">SNSのシェアリンクやブランドサイトのCTAから、直接バーチャル店舗にワンタップ入場。</p>
+            </div>
+            <div class="timeline__item">
+              <h3 class="timeline__title">02. 世界観の探索</h3>
+              <p class="timeline__description">ライトガイドが空間の見どころを提示。ビジュアルと音が没入感を形成し、滞在時間を伸ばします。</p>
+            </div>
+            <div class="timeline__item">
+              <h3 class="timeline__title">03. ソーシャル比較</h3>
+              <p class="timeline__description">友人の視線やリアクションが表示され、購買を後押しする共感ラインを生成。</p>
+            </div>
+            <div class="timeline__item">
+              <h3 class="timeline__title">04. 即時決済</h3>
+              <p class="timeline__description">お気に入り商品を保持したままHUDで決済。配送情報もワンタップで呼び出せます。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="u-container footer__inner">
+        <div>
+          <div class="footer__logo">ECETA</div>
+          <p class="footer__note">© ECeta. EC × メタバース × 世界観 × 即購買。</p>
+        </div>
+        <div class="footer__links">
+          <a class="u-text-small" href="vision.html">ビジョン</a>
+          <a class="u-text-small" href="team.html">チーム</a>
+          <a class="u-text-small" href="contact.html">ブランド出店相談</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

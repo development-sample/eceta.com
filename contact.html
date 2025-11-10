@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>問い合わせ | ECeta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header" data-animate="fade">
+      <div class="u-container header__inner">
+        <a class="header__logo" href="index.html">ECETA</a>
+        <nav class="header__nav" aria-label="主要ナビゲーション">
+          <ul class="header__nav-list">
+            <li><a class="header__link" href="product.html">プロダクト</a></li>
+            <li><a class="header__link" href="for-brands.html">ブランド向け</a></li>
+            <li><a class="header__link" href="vision.html">ビジョン</a></li>
+            <li><a class="header__link" href="team.html">チーム</a></li>
+            <li><a class="header__link" href="contact.html">問い合わせ</a></li>
+          </ul>
+        </nav>
+        <button class="header__menu-toggle" type="button" aria-expanded="false" aria-controls="navDrawer" data-drawer-toggle>
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <div class="nav-drawer" id="navDrawer">
+      <div class="nav-drawer__panel">
+        <button class="header__menu-toggle" type="button" aria-label="閉じる" data-drawer-toggle>×</button>
+        <a class="nav-drawer__link" href="product.html">プロダクト</a>
+        <a class="nav-drawer__link" href="for-brands.html">ブランド向け</a>
+        <a class="nav-drawer__link" href="vision.html">ビジョン</a>
+        <a class="nav-drawer__link" href="team.html">チーム</a>
+        <a class="nav-drawer__link" href="contact.html">問い合わせ</a>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero" data-animate="fade">
+        <div class="u-container">
+          <div class="hero__label u-uppercase">Contact</div>
+          <h1 class="hero__title">
+            スマホの中に、もうひとつの店舗を。
+            <span>出店相談・取材依頼・パートナーシップはこちら。</span>
+          </h1>
+          <p class="hero__lead">
+            ブランド出店、共同プロモーション、投資家・メディアの皆さまからのご連絡をお待ちしています。最短1営業日以内にご返信いたします。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" data-animate="fade">
+        <div class="u-container">
+          <div class="u-grid u-grid--2">
+            <article class="contact-card">
+              <span class="badge">お問い合わせ</span>
+              <h2 class="section__title u-mb-none">ブランド出店・パートナー相談</h2>
+              <p class="section__lead">
+                ECetaの空間設計・導入に関するご相談や、共同イベント、投資・取材に関するご連絡はこちらのフォームからお寄せください。
+              </p>
+              <div class="section-list__item">
+                <div class="section-list__label">対応時間</div>
+                <p class="section-list__description">平日 10:00-19:00（日本時間）。内容により2営業日ほどお時間を頂く場合があります。</p>
+              </div>
+              <div class="section-list__item">
+                <div class="section-list__label">連絡先メール</div>
+                <p class="section-list__description">partners@eceta.com</p>
+              </div>
+            </article>
+            <article class="contact-card">
+              <form class="form" action="#" method="post">
+                <div class="form__group">
+                  <label class="form__label" for="company">御社名 / ブランド名</label>
+                  <input class="form__input" type="text" id="company" name="company" placeholder="例）ECeta Studio" required />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="name">ご担当者名</label>
+                  <input class="form__input" type="text" id="name" name="name" placeholder="例）山田 花子" required />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="email">メールアドレス</label>
+                  <input class="form__input" type="email" id="email" name="email" placeholder="example@domain.jp" required />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="topic">ご相談内容</label>
+                  <input class="form__input" type="text" id="topic" name="topic" placeholder="出店について / 取材依頼 など" />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="message">メッセージ</label>
+                  <textarea class="form__textarea" id="message" name="message" placeholder="現状の課題やご要望をお聞かせください。" required></textarea>
+                </div>
+                <button class="button button--primary" type="submit">送信する</button>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark section--compact" data-animate="fade">
+        <div class="u-container">
+          <div class="section__header">
+            <h2 class="section__title">FAQ</h2>
+            <p class="section__lead">よくある質問と回答をご確認いただけます。詳細は個別にご案内します。</p>
+          </div>
+          <ul class="section-list">
+            <li class="section-list__item">
+              <div class="section-list__label">導入までの期間は？</div>
+              <p class="section-list__description">初期設計からローンチまで最短6週間。コンテンツボリュームに応じて調整いたします。</p>
+            </li>
+            <li class="section-list__item">
+              <div class="section-list__label">費用体系は？</div>
+              <p class="section-list__description">基本プラン＋プレミアム機能のサブスクリプション、売上連動の取引手数料で構成します。</p>
+            </li>
+            <li class="section-list__item">
+              <div class="section-list__label">決済連携は可能？</div>
+              <p class="section-list__description">主要なクレジットカードとモバイルウォレットに対応。既存ECとの在庫連携もサポート予定です。</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="u-container footer__inner">
+        <div>
+          <div class="footer__logo">ECETA</div>
+          <p class="footer__note">© ECeta. EC × メタバース × 世界観 × 即購買。</p>
+        </div>
+        <div class="footer__links">
+          <a class="u-text-small" href="vision.html">ビジョン</a>
+          <a class="u-text-small" href="team.html">チーム</a>
+          <a class="u-text-small" href="contact.html">ブランド出店相談</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
