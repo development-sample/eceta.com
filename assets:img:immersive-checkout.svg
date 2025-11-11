@@ -1,0 +1,41 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">チェックアウトフローのイメージ</title>
+  <desc id="desc">滑らかな決済モジュールとホログラフィックなUIを表現した抽象アート</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="40%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="glow" cx="55%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#F59E0B" stop-opacity="0.0" />
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#CBD5F5" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)" />
+  <rect x="220" y="160" width="760" height="580" rx="80" fill="url(#glow)" />
+  <g opacity="0.9">
+    <rect x="300" y="240" width="600" height="320" rx="40" fill="url(#card)" />
+    <rect x="340" y="280" width="220" height="60" rx="20" fill="#111827" opacity="0.76" />
+    <rect x="340" y="360" width="380" height="42" rx="20" fill="#111827" opacity="0.4" />
+    <rect x="340" y="420" width="320" height="42" rx="20" fill="#111827" opacity="0.4" />
+    <rect x="340" y="480" width="260" height="42" rx="20" fill="#111827" opacity="0.4" />
+    <rect x="620" y="480" width="200" height="54" rx="24" fill="url(#cta)" />
+  </g>
+  <g opacity="0.5">
+    <path d="M280 620H920" stroke="#FDE68A" stroke-width="3" stroke-linecap="round" stroke-dasharray="24 16" />
+    <path d="M320 680H880" stroke="#EC4899" stroke-width="3" stroke-linecap="round" stroke-dasharray="18 24" />
+  </g>
+  <g opacity="0.32">
+    <circle cx="380" cy="220" r="70" fill="#EC4899" />
+    <circle cx="880" cy="280" r="90" fill="#8B5CF6" />
+  </g>
+</svg>

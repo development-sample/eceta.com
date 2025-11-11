@@ -1,0 +1,49 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ソーシャル同時入店のイメージ</title>
+  <desc id="desc">複数のアバターがホログラムを介して繋がるインタラクティブなシーン</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#0C4A6E" stop-opacity="0.0" />
+    </radialGradient>
+    <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="avatarAlt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)" />
+  <circle cx="600" cy="450" r="360" fill="url(#pulse)" />
+  <g opacity="0.15">
+    <circle cx="600" cy="450" r="420" stroke="#38BDF8" stroke-width="2" />
+    <circle cx="600" cy="450" r="300" stroke="#22D3EE" stroke-width="2" stroke-dasharray="12 16" />
+  </g>
+  <g opacity="0.8">
+    <circle cx="600" cy="450" r="140" fill="#020617" stroke="#38BDF8" stroke-width="4" />
+    <path d="M540 430L600 380L660 430L600 520L540 430Z" fill="url(#avatar)" />
+    <circle cx="600" cy="450" r="32" fill="#020617" stroke="#7DD3FC" stroke-width="4" />
+  </g>
+  <g opacity="0.85">
+    <circle cx="360" cy="360" r="70" fill="#020617" stroke="#F87171" stroke-width="4" />
+    <rect x="324" y="320" width="72" height="80" rx="32" fill="url(#avatarAlt)" />
+    <circle cx="840" cy="320" r="70" fill="#020617" stroke="#A855F7" stroke-width="4" />
+    <rect x="804" y="280" width="72" height="80" rx="32" fill="#7C3AED" />
+    <circle cx="880" cy="620" r="64" fill="#020617" stroke="#34D399" stroke-width="4" />
+    <rect x="846" y="584" width="68" height="72" rx="28" fill="url(#avatar)" />
+    <circle cx="320" cy="600" r="60" fill="#020617" stroke="#22D3EE" stroke-width="4" />
+    <rect x="288" y="568" width="64" height="64" rx="24" fill="#0EA5E9" />
+  </g>
+  <g opacity="0.4" stroke="#7DD3FC" stroke-width="3" stroke-linecap="round">
+    <path d="M360 360C420 300 520 300 600 380" />
+    <path d="M600 380C680 300 780 300 840 320" />
+    <path d="M600 520C700 620 820 620 880 620" />
+    <path d="M600 520C520 620 380 620 320 600" />
+  </g>
+</svg>
